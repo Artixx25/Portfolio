@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name='freelancehunt' content='36e737edd868376'>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+      <link rel="shortcut icon" href="img/64px.png">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css">
+      <link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/unicons.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <title>My Portfolio - IT Specialist</title>
+   </head>
+   <body>
+      <div class="mask">
+         <div id="preloader">
+            <div id="loader"></div>
+         </div>
+      </div>
+      <header>
+         <div class="main_menu">
+            <div class="header-menu-wrp">
+               <div class="header-menu">
+                  <ul>
+                     <li class="active"><a href="#Home" class="local" caption='home'>ГЛАВНАЯ</a></li>
+                     <li><a href="#About" class="local" caption='about'>ОБО МНЕ</a></li>
+                     <li><a href="#portfolio" class="local" caption='portfolio'>ПОРТФОЛИО</a></li>
+                     <li><a href="#Contact" class="local" caption='contact'>КОНТАКТЫ</a></li>
+                     <button class="language defaultla activeLang">Default</button>
+                     <button class="language eng"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/640px-Flag_of_the_United_Kingdom.svg.png" alt="eng" width="25px" height="25px" style="border-radius: 50%;"></button>
+                     <button class="language ukr"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/1200px-Flag_of_Ukraine.svg.png" alt="eng" width="25px" height="25px" style="border-radius: 50%;"></button>
+                  </ul>
+                  <div class="logo_menu">
+                     <h2><span>ARTIXX</span> PORTFOLIO</h2>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <div id="Home"></div>
+      <script src="js/background.js"></script>
+      <div class="full-hm">
+         <div class="title">
+            <h2><span>A</span>RTEM <span>N</span>AUMENKO</h2>
+         </div>
+         <div class="content">
+            <span>Front-End Developer</span>
+            <p class="local" caption='descr'>Живу в Польше, но сам с Украины. В программировании сайтов нахожусь 1 год. Раньше увлекался компьютерным дизайном, работал с Photoshop, CINEMA 4D.
+               Всегда готов учиться. Принимаю пункт о стажировке. В данный момент нахожусь на первом курсе.
+            </p>
+         </div>
+         <!-- кнопка -->
+         <div class="sci" style="margin-top: 30px;">
+            <a href="tel:+48579345883"><img src="img/soc/phone.png" alt="" class="ph" draggable="false"></a>
+            <a href="https://t.me/Artixx_rich_boy"><img src="img/soc/teleg1.png" alt="" class="tg" draggable="false"></a>
+            <a href="https://www.instagram.com/artix_25/"><img src="img/soc/Inst.png" alt="" class="inst" draggable="false"></a>
+            <a href="https://codepen.io/Artixx25"><img src="img/soc/code.png" alt="" class="code" draggable="false"></a>
+            <a href="https://github.com/Artixx25"><img src="img/soc/github.png" alt="" class="git" draggable="false"></a>
+         </div>
+         <button class="btn" id='show' onClick='showDialog()' style="margin-top: 25px;">
+         <span>FEEDBACK</span>
+         </button>
+      </div>
+      <img src="img/myimg/ii2.png" alt="" class="me" height="850px" width="320px" draggable="false">
+      <div class="bg"></div>
+      <!-- popup -->
+      <div id='dialog'>
+         <div class="login-box">
+            <h2 class="local" caption='fedb'>Oбратная Cвязь .</span></h2>
+            <form>
+               <div class="user-box">
+                  <input type="text" name="" required>
+                  <label class="local" caption='nameform'>Имя</label>
+               </div>
+               <div class="user-box">
+                  <input type="text" name="" required>
+                  <label class="local" caption='surnameform'>Фамилия</label>
+               </div>
+               <div class="user-box">
+                  <input type="text" name="" required>
+                  <label class="local" caption='emailform'>Почта</label>
+               </div>
+               <div class="user-box">
+                  <input type="text" name="" required>
+                  <label class="local" caption='phoneform'>Телефон</label>
+               </div>
+               <input class="form_btn"  type="submit" value="Send">
+            </form>
+         </div>
+         <b id="close" onClick='closeDialog()'>&#xd7</b>
+      </div>
+      </div>
+      <!-- cont about -->
+      <div id="About" class="About_cont">
+         <section id="back-top">
+            <a href="#top"><span><img src="img/soc/toop.png" alt="" width="30px" height="30px"></span></a>
+         </section>
+         <!-- ======= Skills  ======= -->
+         <div class="title-skil">
+            <h2><span>A</span>BOUT  <span>.</span></h2>
+         </div>
+         <div class="skills">
+            <ul class="lines">
+               <li class="line l--0">
+                  <span class="line__label title-lvl">
+                  Skill level:
+                  </span>
+               </li>
+               <li class="line l--25">
+                  <span class="line__label">
+                  The basics
+                  </span>
+               </li>
+               <li class="line l--50">
+                  <span class="line__label">
+                  Advanced
+                  </span>
+               </li>
+               <li class="line l--75">
+                  <span class="line__label">
+                  Seasoned
+                  </span>
+               </li>
+               <li class="line l--100">
+                  <span class="line__label">
+                  Expert
+                  </span>
+               </li>
+            </ul>
+            <div class="charts">
+               <div class="chart chart--dev">
+                  <span class="chart__title">Development</span>
+                  <ul class="chart--horiz">
+                     <li class="chart__bar" style="width: 98%;">
+                        <span class="chart__label">
+                        HTML5 & HTML
+                        </span>
+                     </li>
+                     <li class="chart__bar" style="width: 98%;">
+                        <span class="chart__label">
+                        CSS3 & CSS & Bootstrap & BEM & Tailwind & SASS
+                        </span>
+                     </li>
+                     <li class="chart__bar" style="width: 80%;">
+                        <span class="chart__label">
+                        JavaScript (ScrollMagic, jQuery) - ES5/6
+                        </span>
+                     </li>
+                  </ul>
+               </div>
+               <div class="chart chart--design">
+                  <span class="chart__title">Design</span>
+                  <ul class="chart--horiz">
+                     <li class="chart__bar" style="width: 40%;">
+                        <span class="chart__label">
+                        Photoshop
+                        </span>
+                     </li>
+                     <li class="chart__bar" style="width: 35%;">
+                        <span class="chart__label">
+                        Cinema4D
+                        </span>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="text_cont">
+         <div class="text_about">
+            <p class="local" caption='aboutdesc'>
+               Могу делать адаптивную вёрстку.
+               Языки: украинский - носитель,
+               английский - A2,
+               польский - A1,
+               русский - свободно.
+               Хочу изучить такие фреймворки, языки и базы-данных как: TypeScript, MongoDB, MySQL, Node.js, Angular, Vue.
+               Желаемая зарплата: от 300$ до 2000$.
+               В данный момент учусь в не публичном техникуме в Радоме. Направление: Техник-Информатик.
+            </p>
+            <a href="https://www.szkolyradom.zdz.kielce.pl" style="font-size: 23px; margin-right: 15px;" class="links-ab">My technical school ZDZ</a>  <a href="img/myimg/zhiza.jpg" style="font-size: 23px;" class="links-ab">(=meme=)</a>
+         </div>
+      </div>
+      <div id="portfolio" class="port">
+         <div class="container_port">
+            <div class="title-skil3">
+               <h2><span>P</span>ORTFOLIO <span>.</span></h2>
+            </div>
+            <div class="text_port">
+               <h3 class="local" caption='proj' style="margin-bottom:40px;">Мои Проекты</h3>
+            </div>
+            <div class="blog-slider">
+               <div class="blog-slider__wrp swiper-wrapper">
+                  <div class="blog-slider__item swiper-slide">
+                     <div class="blog-slider__img">
+                        <img src="img/project/ENIGMA.jpg" alt="">
+                     </div>
+                     <div class="blog-slider__content">
+                        <span class="blog-slider__code local" caption='proces'>Проект в разработке</span>
+                        <div class="blog-slider__title">Enigma Cinema</div>
+                        <div class="blog-slider__text local" caption='Enigmadis'>Enigma, это мой проект. Сайт-кинотеатр для просмотра фильмов, мультфильмов, аниме и сериалов.. в данный момент проэкт не закончен, есть только две вкладки (Films, Home).</div>
+                        <a href="https://enigmacinema.netlify.app" class="blog-slider__button local" caption='visit'>Посетить</a>
+                        <a href="https://github.com/Artixx25/EnigmaCinema" class="blog-slider__button local" style="margin-left:4px;">Source on GitHub <i class="fa-brands fa-github" style="margin:4px 0 4px 4px;"></i></a>
+                     </div>
+                  </div>
+                  <div class="blog-slider__item swiper-slide">
+                     <div class="blog-slider__img">
+                        <img src="img/project/coolours.jpg" alt="">
+                     </div>
+                     <div class="blog-slider__content">
+                        <span class="blog-slider__code local" caption='finishp'>Закончен</span>
+                        <div class="blog-slider__title">Coolours</div>
+                        <div class="blog-slider__text local" caption='Cooloursdis'>Coolours - сайт где ты можешь рандомно выбрать любую палитру из 6 цветов нажав пробел, и скопировать их себе в проект.</div>
+                        <a href="https://coolours.netlify.app" class="blog-slider__button local" caption='visit'>Посетить</a>
+                        <a href="https://github.com/Artixx25/Coolours" class="blog-slider__button" style="margin-left:4px;">Source on GitHub <i class="fa-brands fa-github" style="margin:4px 0 4px 4px;"></i></a>
+                     </div>
+                  </div>
+                  <div class="blog-slider__item swiper-slide">
+                     <div class="blog-slider__img">
+                        <img src="img/project/bc.jpg" alt="">
+                     </div>
+                     <div class="blog-slider__content">
+                        <span class="blog-slider__code local" caption='finishp'>Закончен</span>
+                        <div class="blog-slider__title">HTML Learn</div>
+                        <div class="blog-slider__text local" caption='htmldis'>HTML Learn - сайт на котором можешь изучить базу html и приобрести курсы. На сайте присутсвует так же регистрация аккаунта и личный профиль с данными.</div>
+                        <a href="https://htmlearnartixx.netlify.app" class="blog-slider__button local" caption='visit'>Посетить</a>
+                        <a class="coming" style="margin-left:4px;">Source on GitHub <i class="fa-brands fa-github" style="margin:4px 0 4px 4px;"></i></a>
+                     </div>
+                  </div>
+               </div>
+               <div class="blog-slider__pagination"></div>
+            </div>
+         </div>
+      </div>
+      <!--===== CONTACT =====-->
+      <div id="Contact">
+         <h2 class="section-title"><span>C</span>ontact <span>.</span></h2>
+         <div class="advantages__container">
+            <div class="advantages">
+               <div class="advantages__items">
+                  <i class="far fa-envelope-open"></i>
+                  <h2>Email</h2>
+                  <p>officalwoolf@gmail.com</p>
+               </div>
+               <div class="advantages__items">
+                  <i class="fas fa-phone"></i>
+                  <h2>Phone</h2>
+                  <p>+48-579-345-883  <span style="opacity: 0.3; color: rgb(255, 255, 255);">(main)</span></p>
+                  <p style="margin-top: -15px;">+38-097-245-52-77</p>
+               </div>
+               <div class="advantages__items">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <h2>Find Us</h2>
+                  <p>Poland, Radom, 26-600</p>
+               </div>
+            </div>
+         </div>
+         <div class="all_form" style="margin-top: 50px;">
+            <div class="tit-sub">
+               <h2>Subscribe me!</h2>
+            </div>
+            <div class="form-cont">
+               <input type="email" placeholder="example@gmail.com" class="subs" required>
+               <input type="submit" class="subs-btn" value="Subscribe">
+            </div>
+            <div class="sorc_port">
+               <a href="https://github.com/Artixx25/Portfolio" class="blog-slider__button local" style="margin-left:4px;">Portfolio source on GitHub <i class="fa-brands fa-github" style="margin:4px 0 4px 4px;"></i></a>
+            </div>
+         </div>
+      </div>
+      <div class="no-res">
+         <b>Извените, этот сайт не адаптивый, откройте пожалуйста на устройстве
+         с минимальным размером экрана в 800px.</b>
+      </div>
+      <!--===== FOOTER =====-->
+      <footer>
+         <img src="IMG/LOGO.png" alt="" class="logo">
+         <div class="social-icons-container">
+            <a href="https://www.instagram.com/artix_25/" class="social-icon"></a>
+            <a href="https://codepen.io/Artixx25" class="social-icon"></a>
+            <a href="https://github.com/Artixx25" class="social-icon"></a>
+            <a href="https://t.me/Artixx_rich_boy" class="social-icon"></a>
+         </div>
+         <ul class="footer-menu-container">
+            <a href="#Home">
+               <li class="menu-item">Home</li>
+            </a>
+            <a href="#About">
+               <li class="menu-item">About</li>
+            </a>
+            <a href="#portfolio">
+               <li class="menu-item">Portfolio</li>
+            </a>
+            <a href="#Contact">
+               <li class="menu-item">Contact</li>
+            </a>
+         </ul>
+      </footer>
+      <script src="js/script.js"></script>
+   </body>
+</html>
